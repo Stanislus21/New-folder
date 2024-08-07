@@ -254,7 +254,7 @@ body{
     }
 }
 @media(max-width: 520px){
-    .weather-data .weather-right .highlights{
+    .weather_data .weather_right .highlights{
         & .scene:nth-of-type(3),
         & .scene:nth-of-type(4),
         & .scene:nth-of-type(5),
@@ -269,17 +269,17 @@ body{
     } 
 }
 @media(max-width: 480px){
-    .weather-data .weather-right .highlights .sunrise-sunset{
+    .weather_data .weather_right .highlights .sunrise-sunset{
         grid-template-columns: 1fr;
     }
 }
 @media(max-width: 450px){
-    .weather-data .weather-right .hourly-forecast{
+    .weather_data .weather_right .hourly-forecast{
         grid-template-columns: repeat(3, 1fr);
     }
 }
 @media(max-width: 380x){
-    .weather-data .weather-right .highlights .air-indices{
+    .weather_data .weather_right .highlights .air-indices{
         grid-template-columns: repeat(2, 1fr);
     }
 }
